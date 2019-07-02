@@ -1,0 +1,23 @@
+.header__container{
+    display: flex;
+    flex-direction: column;
+    height: 785px;
+    background-color: black;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.prompt__wrapper {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    z-index: 1;
+    width: 100%;
+}
+
+.header__container:after {
+    background-color: black;
+    opacity: 0.5;
+}

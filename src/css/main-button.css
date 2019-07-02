@@ -1,0 +1,8 @@
+.main-button {
+    height: 75px;
+    margin: 40px;
+    width: 300px;
+    font-size: 25px;
+    border: 2px solid black;
+    background: transparent;
+}

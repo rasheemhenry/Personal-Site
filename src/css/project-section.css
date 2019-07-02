@@ -1,0 +1,22 @@
+.project-section__container {
+
+}
+
+.card__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.project-section__button {
+    height: 75px;
+    width: 300px;
+    font-size: 25px;
+    border: 2px solid black;
+    background: transparent;
+}

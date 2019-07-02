@@ -1,0 +1,26 @@
+.nav__container {
+    display: flex;
+    /* justify-content: flex-end; */
+    right: 0;
+    margin: 20px 100px;
+    position: absolute;
+    height: 40px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: whitesmoke;
+    background: none;
+    border: none;
+    margin: 10px 20px;
+}
+
+.nav__link:hover {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    opacity: 0.5;
+    background: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
