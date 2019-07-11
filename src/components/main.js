@@ -5,6 +5,7 @@ import Nav from './nav';
 import ProjectSection from './project-section';
 import AboutSection from './about-section';
 import ResumeSection from './resume-section';
+import ProjectPage from './project-page';
 
 import '../css/main.css';
 import vid from '../assets/blickGap.MOV';
@@ -30,7 +31,6 @@ class Main extends Component {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <Header />
                 <Nav />
                 <PromptPreview />
                 <ProjectSection 
@@ -51,6 +51,7 @@ class Main extends Component {
                     arrowSize='20'
                     bgcolor={bgcolors.white}
                 />
+                <ProjectPage/>
             </div>
         );
     }
