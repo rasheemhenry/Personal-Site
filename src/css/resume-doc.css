@@ -1,0 +1,17 @@
+.resume-doc__container {
+    display: flex
+}
+
+.resume-doc__entry {
+    display: flex;
+}
+
+
+h4 {
+    font-weight: bold;
+}
+
+.tech-list{
+    display: block;
+    list-style-type: disc;
+}

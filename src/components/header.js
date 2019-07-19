@@ -5,7 +5,7 @@ import '../css/header.css';
 
 const Header = (props) => {
     return(
-        <div className='header__container'>
+        <div className='header__container' style={props.bgImg}>
             <HeaderDes
                 des={props.des}
                 title={props.title}

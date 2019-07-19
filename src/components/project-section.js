@@ -4,6 +4,8 @@ import Section from './section';
 import MainButton from './main-button';
 
 import '../css/project-section.css';
+import yoyo from '../assets/yoyo.jpg';
+import plant from '../assets/plant.jpg';
 
 class ProjectSection extends Component {
     render(){
@@ -11,19 +13,34 @@ class ProjectSection extends Component {
             <div className='project-section__container'>
                 <Section
                     sectionName={this.props.sectionName}
-                    btnTitle={this.props.btnTitle}
-                    arrowSize={this.props.arrowSize}
-                    bgcolor={this.props.bgcolor}
                 >
                     <div className='card__wrapper'>
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
+                        <ProjectCard
+                            pName='Healthy Distraction'
+                            bgImg={yo_yo}
+                        />
+                        <ProjectCard
+                            pName='Project Name'
+                            bgImg={dplant}
+                        />
                     </div>  
+                    <MainButton
+                        btnTitle={this.props.btnTitle}
+                        arrowSize={this.props.arrowSize}
+                        link={this.props.link}
+                    />
                 </Section>
             </div>
         );
     }
 }
+
+const yo_yo ={
+    backgroundImage: `url(${yoyo})`
+};
+
+const dplant ={
+    backgroundImage: `url(${plant})`
+};
 
 export default ProjectSection;

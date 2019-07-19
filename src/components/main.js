@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import Header from './header';
+import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
 import PromptPreview from './prompt-preview';
 import Nav from './nav';
 import ProjectSection from './project-section';
 import AboutSection from './about-section';
 import ResumeSection from './resume-section';
 import ProjectPage from './project-page';
+import AboutPage from './about-page';
+import ResumePage from './resume-page'
+import Footer from './footer';
 
 import '../css/main.css';
 import vid from '../assets/blickGap.MOV';
@@ -34,10 +37,11 @@ class Main extends Component {
                 <Nav />
                 <PromptPreview />
                 <ProjectSection 
-                    sectionName='Recent Projects'
+                    sectionName='My latest Projects'
                     btnTitle='View More Projects'
                     arrowSize='20'
                     bgcolor={bgcolors.white}
+                    link='/portfolio'
                 />
                 <AboutSection 
                     sectionName='My Life'
@@ -51,7 +55,7 @@ class Main extends Component {
                     arrowSize='20'
                     bgcolor={bgcolors.white}
                 />
-                <ProjectPage/>
+                <Footer/>
             </div>
         );
     }

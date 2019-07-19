@@ -9,7 +9,7 @@
     flex: 1;
     height: 400px;
     min-width: 400px;
-    background-color: black;
+    background-size: 700px;
 }
 
 .project-card__text {
@@ -32,7 +32,6 @@
 }
 
 .project-card__container:hover .project-card__text {
-    background-color: black;
     transition: 0.5s ease;
     opacity: 1;
     display: flex;

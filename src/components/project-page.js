@@ -3,8 +3,10 @@ import Header from './header';
 import Nav from './nav';
 import Section from './section';
 import ProjectCard from './project-card';
+import Footer from './footer';
 
 import '../css/project-page.css';
+import tokyoHotel from '../assets/tokyoHotel.jpg';
 
 class ProjectPage extends Component{
     render(){
@@ -12,9 +14,12 @@ class ProjectPage extends Component{
             <div className='project-page__container'>
                 <Header 
                     des='My work as a Software Engineer'
-                    title='My Web App Portfolio'                
+                    title='My Web App Portfolio'  
+                    bgImg={bgStyle}
                 />
-                <Nav />
+                <Nav 
+                    fontColor='dark'
+                />
                 <Section
                     sectionName='Im a dedicated Web developer'
                     para='What drives me complete control to curate and refine services around me to better suit my needs'
@@ -25,14 +30,15 @@ class ProjectPage extends Component{
                     bgcolor={bgcolors.white}
                 >
                     <div className='card__wrapper'>
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
+                        <ProjectCard
+                            pName='Healthy Distraction'
+                        />
+                        <ProjectCard
+                            pName='Project Name'
+                        />
                     </div>  
                 </Section>
+                <Footer/>
             </div>
         );
     }
@@ -41,6 +47,10 @@ class ProjectPage extends Component{
 const bgcolors = {
     'white': '#fff',
     'grey': '#edeeef',
+};
+
+const bgStyle =  {
+    backgroundImage: `url(${tokyoHotel})`
 };
 
 export default ProjectPage;

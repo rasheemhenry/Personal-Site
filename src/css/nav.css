@@ -24,3 +24,9 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}

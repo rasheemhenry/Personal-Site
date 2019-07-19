@@ -10,12 +10,6 @@ const Section = (props) => {
             <h2>{props.sectionName}</h2>
             <p>{props.para}</p>
             {props.children}
-            {props.btnTitle &&
-                <MainButton
-                    btnTitle={props.btnTitle}
-                    arrowSize={props.arrowSize}
-                />
-            }
         </div>
     );
 }
