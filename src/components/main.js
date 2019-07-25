@@ -39,21 +39,20 @@ class Main extends Component {
                 <ProjectSection 
                     sectionName='My latest Projects'
                     btnTitle='View More Projects'
-                    arrowSize='20'
                     bgcolor={bgcolors.white}
                     link='/portfolio'
                 />
                 <AboutSection 
                     sectionName='My Life'
                     btnTitle='More about Me'
-                    arrowSize='20'
                     bgcolor={bgcolors.grey}
                 />
                 <ResumeSection
-                    sectionName='See my Journey'
-                    btnTitle='Full Resume'
-                    arrowSize='20'
+                    sectionName='What I can do &amp; what I&#39;ve done'
+                    para='Feel free to check out what I&#39;ve accomplised over the years, and my current skill set.'
+                    btnTitle='View My Resume'
                     bgcolor={bgcolors.white}
+                    link='/resume'
                 />
                 <Footer/>
             </div>

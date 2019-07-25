@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from './section';
+import MainButton from './main-button';
 
 import '../css/resume-section.css';
 
@@ -8,13 +9,14 @@ const ResumeSection = (props) => {
         <div className='resume-section__container'>
             <Section 
                 sectionName={props.sectionName}
-                btnTitle={props.btnTitle}
-                arrowSize={props.arrowSize}
+                para={props.para}
                 bgcolor={props.bgcolor}
             >
-                <div>
-                    <h2>My Resume</h2>
-                </div>
+                <MainButton
+                    btnTitle={props.btnTitle}
+                    arrowSize={props.arrowSize}
+                    link={props.link}
+                />
             </Section>
         </div>
     );

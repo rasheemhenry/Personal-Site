@@ -8,7 +8,7 @@ const Section = (props) => {
     return(
         <div className='section__container' style={{backgroundColor:props.bgcolor}}>
             <h2>{props.sectionName}</h2>
-            <p>{props.para}</p>
+            <p className='section-p'>{props.para}</p>
             {props.children}
         </div>
     );

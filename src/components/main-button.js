@@ -1,16 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { RightArrowAlt } from 'styled-icons/boxicons-regular';
+// import { RightArrowAlt } from 'styled-icons/boxicons-regular';
 
 import '../css/main-button.css';
 
 
 const MainButton = (props) => {
     return(
-        <div className='main-button_container'>
+        <div className='main-button__container'>
             <Link to={props.link}>
                 <button className='main-button'>
-                    {props.btnTitle} <RightArrowAlt size={props.arrowSize}/>
+                    {props.btnTitle}
                 </button>
             </Link>
         </div>

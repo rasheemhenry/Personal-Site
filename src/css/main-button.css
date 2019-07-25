@@ -1,3 +1,7 @@
+.main-button__container{
+    display: flex;
+}
+
 .main-button {
     height: 75px;
     margin: 40px;

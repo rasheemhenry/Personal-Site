@@ -15,13 +15,15 @@ const Nav = (props) => {
                         <Link className='nav__link' to="/portfolio" style={nFont}>Portfolio</Link>
                     </li>
                     <li>
-                        <Link className='nav__link' to="/about" style={nFont}>About</Link>
+                        <a className='nav__link' href='#about' style={nFont}>About</a>
+                        {/* <Link className='nav__link' to="/about" style={nFont}>About</Link> */}
                     </li>
                     <li>
                         <Link className='nav__link' to="/resume/" style={nFont}>Resume</Link>
                     </li>
                     <li>
-                        <Link className='nav__link' to="/contact/" style={nFont}>Contact</Link>
+                        <a className='nav__link' href='#footer' style={nFont}>Contact</a>
+                        {/* <Link className='nav__link' to="/contact/" style={nFont}>Contact</Link> */}
                     </li>
                 </ul>
         </div>

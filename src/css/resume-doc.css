@@ -1,17 +1,88 @@
 .resume-doc__container {
-    display: flex
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .resume-doc__entry {
     display: flex;
+    max-width: 1400px;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
 }
 
+.tech-list__container{
+    display: flex;
+    flex: 2;
+}
 
-h4 {
-    font-weight: bold;
+.workexp-list__container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.edu-list__container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.edu-list__container p{
+    font-size: 19px;
 }
 
 .tech-list{
     display: block;
+    flex: 1;
     list-style-type: disc;
+}
+
+.tech-list-li {
+    margin-left: 2rem;
+    font-size: 19px;
+}
+
+.workexp-list {
+    display: block;
+    flex: 2;
+    list-style-type: disc;
+    margin-bottom: 4rem;
+}
+
+.workexp-list-li {
+    margin-left: 2rem;
+
+}
+
+li p {
+    font-size: 19px;
+    text-align: left;
+}
+
+.resume-doc__entry h2 {
+    flex: 1;
+    margin-left: 100px;
+    font-weight: 300;
+}
+
+.resume-doc__entry h3 {
+    font-weight: 400;
+}
+
+.work-link {
+    display: inline;
+    font-size: 26px;
+    color: lightcoral;
+}
+
+.work-link:visited {
+    color: lightcoral;
+}
+
+.resume-doc__entry h4 {
+    margin-bottom: 1rem;
+    font-weight: bold;
 }
