@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.684894f3.chunk.css",
+    "main.js": "/static/js/main.b5fbaa4b.chunk.js",
+    "main.js.map": "/static/js/main.b5fbaa4b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.8f97d8b9.chunk.js": "/static/js/2.8f97d8b9.chunk.js",
+    "static/js/2.8f97d8b9.chunk.js.map": "/static/js/2.8f97d8b9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3763ae7ff180218939cc424772cb1934.js": "/precache-manifest.3763ae7ff180218939cc424772cb1934.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.684894f3.chunk.css.map": "/static/css/main.684894f3.chunk.css.map",
+    "static/media/blickSGap.mp4": "/static/media/blickSGap.169c4a8b.mp4",
+    "static/media/dam.jpg": "/static/media/dam.9c52256e.jpg",
+    "static/media/plant.jpg": "/static/media/plant.f062bc83.jpg",
+    "static/media/rh-logo-blkwht.svg": "/static/media/rh-logo-blkwht.f6ff9d51.svg",
+    "static/media/main.css": "/static/media/tokyoHotel.27b7a909.jpg",
+    "static/media/yoyo.jpg": "/static/media/yoyo.1fa6058d.jpg"
+  }
+}
