@@ -52,12 +52,12 @@ class Main extends Component {
                             inefficient system, and designing a solution to a problem from 
                             scratch is what drives me.
                         </p>
-                        <p>
+                        {/* <p>
                             I live in New York City, my favorite food is curry, 
                             I ride cyclocross &amp; track bikes, 
                             I speak Japanese,
                             and when I&#39;m excited I quiet down (focus).
-                        </p>
+                        </p> */}
                     </div>
                     {/* <ResumeSection
                         sectionName='What I can do &amp; what I&#39;ve done'
