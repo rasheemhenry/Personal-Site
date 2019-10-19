@@ -12,8 +12,7 @@ const ResumePage = (props) => {
     return (
         <div className='resume-page__container'>
            <Header
-                des='Find out what I have accomplished'
-                title='Glimpse of my background'
+                title='My Experience'
                 bgImg={bgStyle}
             />
             <Nav />

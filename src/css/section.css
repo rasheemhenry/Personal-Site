@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 0 100px 0;
 }
 
 .section__container h2 {
@@ -12,7 +11,13 @@
 }
 
 .section-p {
+    line-height: 1.6;
     font-size: 25px;
     max-width: 800px;
     text-align: center;
+}
+
+#button-right{
+    display: flex;
+    flex-direction: row;
 }

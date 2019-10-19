@@ -8,7 +8,7 @@ class PromptPreview extends Component {
             <div className='prompt__container'>
                 <h5>Hmm Prompt #122:</h5>
                 <h1>Slow is Smooth and Smooth is Nice.</h1>
-                <button>Prompts?</button>
+                {/* <button>Prompts</button> */}
             </div>
         );
     }

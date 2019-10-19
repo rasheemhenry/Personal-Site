@@ -8,7 +8,8 @@ const ProjectCard = (props) => {
             <div className='project-card__text'>
                 <h4>{props.pName}</h4>
                 <button className='project-card__button'>
-                    View Project
+                    Coming Soon...
+                    {/* View Project */}
                 </button>
             </div>
         </div>

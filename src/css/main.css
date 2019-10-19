@@ -26,3 +26,34 @@ video {
     min-width: 100%; 
     filter: brightness(0.70) contrast(1.05);
 }
+.content__container {
+    margin: 100px 150px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-text p {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    letter-spacing: 0.016;
+    font-family: 'Taviraj', serif;
+}
+
+.rh-logo {
+    height: 60px;
+    top: 30px;
+    margin:  0 0 0 70px;
+    position: fixed;
+}
+
+.backupimg {
+    height: 900px;
+    background-image: url('../assets/tokyoHotel.jpg');
+    background-position: center;
+}

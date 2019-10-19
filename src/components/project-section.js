@@ -13,6 +13,8 @@ class ProjectSection extends Component {
             <div className='project-section__container'>
                 <Section
                     sectionName={this.props.sectionName}
+                    bgcolor={this.props.bgcolor}
+                    idPos={this.props.idPos}
                 >
                     <div className='card__wrapper'>
                         <ProjectCard
@@ -20,15 +22,13 @@ class ProjectSection extends Component {
                             bgImg={yo_yo}
                         />
                         <ProjectCard
-                            pName='Project Name'
+                            pName='Mokai'
                             bgImg={dplant}
                         />
                     </div>  
-                    <MainButton
-                        btnTitle={this.props.btnTitle}
-                        arrowSize={this.props.arrowSize}
+                    {/* <MainButton
                         link={this.props.link}
-                    />
+                    /> */}
                 </Section>
             </div>
         );

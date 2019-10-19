@@ -8,6 +8,14 @@
     height: 100px;
 }
 
+.social__container {
+    display: flex;
+}
+
+.social__container a {
+    margin: 0px 10px 0px 10px;
+}
+
 p {
     font-size: 11px;
 }
