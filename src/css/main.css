@@ -14,7 +14,7 @@ html {
     letter-spacing: 0em;
     line-height: 1.8em;
     text-transform: none;
-    /* color: rgba(26,26,26,.75); */
+    color: rgba(26,26,26,.75);
 }
 
 .video__wrapper {
@@ -33,7 +33,7 @@ video {
 .about-text {
     display: flex;
     flex-direction: column;
-
+    color: #212529;
 }
 
 .about-text p {
