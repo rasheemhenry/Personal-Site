@@ -1,12 +1,13 @@
 .project-section__container {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card__wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 20px 50px;
     flex-wrap: wrap;
 }
 
@@ -20,4 +21,14 @@ h2 {
     font-size: 25px;
     border: 2px solid black;
     background: transparent;
+}
+
+.section__container {
+    width: 100%;
+}
+
+@media screen and (min-width: 883px) {
+    .card__wrapper {
+        margin: 20px 50px;
+    }
 }

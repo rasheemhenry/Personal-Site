@@ -27,7 +27,7 @@ video {
     filter: brightness(0.70) contrast(1.05);
 }
 .content__container {
-    margin: 100px 150px;
+    margin: 50px 40px;
 }
 
 .about-text {
@@ -48,12 +48,23 @@ video {
 .rh-logo {
     height: 60px;
     top: 30px;
-    margin:  0 0 0 70px;
-    position: fixed;
+    /* margin:  0 0 0 70px; */
+    position: absolute;
 }
 
 .backupimg {
     height: 900px;
     background-image: url('../assets/tokyoHotel.jpg');
     background-position: center;
+}
+
+@media screen and (min-width: 500px) {
+    .content__container {
+        margin: 100px 150px;
+    }
+
+    .rh-logo {
+        margin:  0 0 0 70px;
+        position: fixed;
+    }
 }
