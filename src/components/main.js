@@ -43,7 +43,7 @@ class Main extends Component {
                 <div className='content__container'>
                     <div className='about-text'>
                         <p>
-                            I grew up an artist but gained a deep appreciation
+                            I grew up an artist, but gained a deep appreciation
                             for the analytical process of engineering. The draw was problem 
                             solving through expression, all within the strict parameters of code; 
                             a chaotic juxtaposition, neatly guided by patterns, forms into an elegant 
